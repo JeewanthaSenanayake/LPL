@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
+
+  <title>LPL Player Ranking</title>
+
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/themify-icons.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/vendor/owl-carousel/owl.carousel.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/vendor/nice-select/css/nice-select.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/vendor/fancybox/css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/virtual.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/tables.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/topbar.virtual.css">
+</head>
+
+<body class="theme-red">
+
+  <!-- Back to top button -->
+  <!-- <div class="btn-back_to_top">
+    <span class="ti-arrow-up"></span>
+  </div> -->
+
+
+  <div class="vg-page page-home" id="home" style="background-image: url(assets/img/bg_image_1.jpg)">
+    <!-- Navbar -->
+
+    <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500 ">
+      <div class="container">
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
+          <span class="ti-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link" data-animate="scrolling">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Batting_Rankings" class="nav-link" data-animate="scrolling">Batting Rankings</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Bowling_Rankings" class="nav-link" data-animate="scrolling">Bowling Rankings</a>
+            </li>
+            <li class="nav-item">
+              <a href="#All-Rounder_Rankings" class="nav-link" data-animate="scrolling">All-Rounder Rankings</a>
+            </li>
+          </ul>
+          <ul class="nav ml-auto">
+            <li class="nav-item">
+              <!-- <button class="btn btn-fab btn-theme no-shadow">En</button> -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> <!-- End Navbar -->
+    <!-- Caption header -->
+    <div class="caption-header text-center wow zoomInDown">
+      <h5 class="fw-normal">Welcome</h5> <br><br>
+      <h2 class="fw-light"> Lanka Premier League </h2>
+      <h1> <b class="fg-theme">Player Ranking</b></h1>
+      <!-- <div class="badge">Lanka Premier League
+      </div> -->
+      <center><br><br>
+        <p id="discription"></p>
+        <p id="data"></p>
+    </div> <!-- End Caption header -->
+
+
+  </div>
+
+  <!-- Batting-->
+  <div class="vg-page page-about" id="Batting_Rankings">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+        <div class="badge badge-subhead">Batting Rankings</div>
+      </div>
+      <h1 class="text-center fw-normal wow fadeIn">LPL Batting Rankings</h1>
+      <br>
+      <center>
+        <img id="battingtable_img" src="assets/img/loadingimg.gif" alt="loading" height="120" width="120">
+        <b>
+          <p>#1 Batter</p>
+        </b>
+        <p id="battingtable"><img src="assets/img/loading.gif" alt="loading" height="50" width="50"></p>
+        <form action="FulBattingTable.html" method="post">
+          <button type="submit" name="submit2">Full Table</button>
+        </form>
+      </center>
+    </div>
+  </div>
+
+
+
+  <!-- Bowling Rankings -->
+  <div class="vg-page page-portfolio" id="Bowling_Rankings">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+        <div class="badge badge-subhead">Bowling Rankings</div>
+      </div>
+      <h1 class="text-center fw-normal wow fadeInUp">LPL Bowling Rankings</h1>
+      <br>
+      <center>
+        <img id="bowlingtable_img" src="assets/img/loadingimg.gif" alt="loading" height="120" width="120">
+        <b>
+          <p>#1 Bowler</p>
+        </b>
+        <p id="bowlingtable"><img src="assets/img/loading.gif" alt="loading" height="50" width="50"></p>
+        <form action="FulBowlingTable.html" method="post">
+          <button type="submit" name="submit2">Full Table</button>
+        </form>
+      </center>
+    </div>
+  </div>
+
+
+
+  <!-- AllRounderRankings -->
+  <div class="vg-page page-portfolio" id="All-Rounder_Rankings">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+        <div class="badge badge-subhead">All-Rounder Rankings</div>
+      </div>
+      <h1 class="text-center fw-normal wow fadeInUp">LPL All-Rounder Rankings</h1>
+      <br>
+      <center>
+        <img id="allroundtable_img" src="assets/img/loadingimg.gif" alt="loading" height="120" width="120">
+        <b>
+          <p>#1 All Rounder</p>
+        </b>
+        <p id="allroundtable"><img src="assets/img/loading.gif" alt="loading" height="50" width="50"></p>
+        <form action="FulAll-RounderTable.html" method="post">
+          <button type="submit" name="submit2">Full Table</button>
+        </form>
+      </center>
+    </div>
+  </div>
+  <center>
+    <p>
+      <b>Page View Count : <p id="viewcount">0</p></b>
+    </p>
+  </center>
+  <!-- Footer -->
+  <div class="vg-footer">
+    <!-- <h1 class="text-center">Virtual Folio</h1> -->
+    <div class="container">
+      <div class="row justify-content-center mt-3">
+        <div class="col-12">
+          <p class="text-center mb-0 mt-4">Copyright &copy;2022. All right reserved</p>
+          <p class="text-center mb-0 mt-4">Jeewantha Senanayake</p>
+          <!-- <p class="text-center mb-0 mt-4">jeewanthamsenanayake@gmail.com</p> -->
+          <p class="text-center mb-0 mt-4"><a
+              href="mailto:<jeewanthamsenanayake@gmail.com>jeewanthamsenanayake@gmail.com?subject=Feedback About LPL Player Ranking System">Send
+              Your Feedback</a></p>
+          <center><a class="mobile" href="https://www.facebook.com/robotpancha"><br><img src="assets/img/facebook.png"
+                alt="Girl in a jacket" width="30" height="30"></a></center>
+        </div>
+      </div>
+    </div>
+  </div> <!-- End footer -->
+
+
+  <script src=" assets/js/jquery-3.5.1.min.js"></script>
+
+  <script src=" assets/js/bootstrap.bundle.min.js"></script>
+
+  <script src=" assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+
+  <script src=" assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+
+  <script src=" assets/vendor/isotope/isotope.pkgd.min.js"></script>
+
+  <script src=" assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+
+  <script src=" assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+  <!-- <script src=" assets/vendor/wow/wow.min.js"></script> -->
+
+  <script src=" assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
+
+  <script src=" assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+
+  <script src=" assets/js/google-maps.js"></script>
+
+  <script src=" assets/js/topbar-virtual.js"></script>
+
+  <script src="assets/js/dateCounter.js"></script>
+
+  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script> -->
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
+    // import { getFirestore , setDoc, doc, collection, addDoc, getDoc } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.js";
+    import { getFirestore, collection, getDocs, setDoc, doc } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.js";
+    import { getStorage, ref, getMetadata, getDownloadURL } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-storage.js";
+
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "####################################",
+      authDomain: "####################################",
+      projectId: "####################################",
+      storageBucket: "####################################",
+      messagingSenderId: "####################################",
+      appId: "####################################",
+      measurementId: "####################################"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+
+    const db = getFirestore(app);
+    var tow_dimentional_array_allround = [];
+    var tow_dimentional_array_batting = [];
+    var tow_dimentional_array_bowling = [];
+    var allroundid = 1;
+    var batingid = 1;
+    var bowlingid = 1;
+    var tableAllround = '<div class="table"><table><tr><th>POS</th><th>Player</th><th>Rating</th>';
+    var tableBating = '<div class="table"><table><tr><th>POS</th><th>Player</th><th>Rating</th>';
+    var tableBowling = '<div class="table"><table><tr><th>POS</th><th>Player</th><th>Rating</th>';
+    var oneBatter;
+    var oneBowler;
+    var oneAllrounder;
+
+ 
+    //last_update
+    var last_update;
+    const querySnapshotupdate = await getDocs(collection(db, "updateTime"));
+    querySnapshotupdate.forEach((docData) => {
+      last_update = docData.data()["updateTime"];
+    });
+
+    if(document.getElementById("data").innerHTML == "Updating..."){
+      document.getElementById("data").innerHTML ='Last Updated Time<br>' + new Date(last_update * 1000);
+    }
+
+    const querySnapshot = await getDocs(collection(db, "ratings"));
+    querySnapshot.forEach((docData) => {
+      tow_dimentional_array_allround.push([docData.id, docData.data()["allround"]]);
+      tow_dimentional_array_batting.push([docData.id, docData.data()["batting"]]);
+      tow_dimentional_array_bowling.push([docData.id, docData.data()["bowlling"]]);
+    });
+
+    tow_dimentional_array_allround.sort(function (a, b) {
+      return b[1] - a[1];
+    })
+
+    tow_dimentional_array_batting.sort(function (a, b) {
+      return b[1] - a[1];
+    })
+
+    tow_dimentional_array_bowling.sort(function (a, b) {
+      return b[1] - a[1];
+    })
+
+    tow_dimentional_array_allround.forEach((data) => {
+
+      if(allroundid == 1){
+        oneAllrounder = data[0];
+      }
+
+      if (allroundid <= 10) {
+        tableAllround = tableAllround + '<tr><td>' + allroundid + '</td><td>' + data[0] + '</td><td>' + data[1] + '</td></tr>';
+      }
+      allroundid = allroundid + 1;
+    });
+
+    tow_dimentional_array_batting.forEach((data) => {
+
+      if(batingid == 1){
+        oneBatter = data[0];
+      }
+
+      if (batingid <= 10) {
+        tableBating = tableBating + '<tr><td>' + batingid + '</td><td>' + data[0] + '</td><td>' + data[1] + '</td></tr>';
+      }
+      batingid = batingid + 1;
+    });
+
+    tow_dimentional_array_bowling.forEach((data) => {
+
+      if(bowlingid == 1){
+        oneBowler = data[0];
+      }
+
+      if (bowlingid <= 10) {
+        tableBowling = tableBowling + '<tr><td>' + bowlingid + '</td><td>' + data[0] + '</td><td>' + data[1] + '</td></tr>';
+      }
+      bowlingid = bowlingid + 1;
+    });
+
+    tableAllround = tableAllround + '</table></div>';
+    tableBating = tableBating + '</table></div>';
+    tableBowling = tableBowling + '</table></div>';
+
+    document.getElementById("allroundtable").innerHTML = tableAllround;
+    document.getElementById("battingtable").innerHTML = tableBating;
+    document.getElementById("bowlingtable").innerHTML = tableBowling;
+    // view count
+
+    const querySnapshotCount = await getDocs(collection(db, "count"));
+    querySnapshotCount.forEach((docData) => {
+      var viewCount = docData.data()["count"];
+      viewCount = viewCount + 1;
+
+      setDoc(doc(db, "count", "count"), {
+      'count': viewCount,
+      });
+
+     document.getElementById("viewcount").innerHTML = viewCount;
+
+    });
+
+
+
+    // player image
+    const storage = getStorage(app);
+
+    //for batting
+    getDownloadURL(ref(storage, oneBatter + '.jpg'))
+      .then((url) => {
+        // `url` is the download URL for 'images/stars.jpg'
+
+        // This can be downloaded directly:
+        const xhr = new XMLHttpRequest();
+        xhr.responseType = 'blob';
+        xhr.onload = (event) => {
+          const blob = xhr.response;
+        };
+        xhr.open('GET', url);
+        xhr.send();
+        // Or inserted into an <img> element
+        const img = document.getElementById('battingtable_img');
+        img.setAttribute('src', url);
+      })
+      .catch((error) => {
+        // Handle any errors
+      });
+
+    //for bowling
+    getDownloadURL(ref(storage, oneBowler + '.jpg'))
+      .then((url) => {
+        // `url` is the download URL for 'images/stars.jpg'
+
+        // This can be downloaded directly:
+        const xhr = new XMLHttpRequest();
+        xhr.responseType = 'blob';
+        xhr.onload = (event) => {
+          const blob = xhr.response;
+        };
+        xhr.open('GET', url);
+        xhr.send();
+        // Or inserted into an <img> element
+        const img = document.getElementById('bowlingtable_img');
+        img.setAttribute('src', url);
+      })
+      .catch((error) => {
+        // Handle any errors
+      });
+
+    //for allround
+    getDownloadURL(ref(storage, oneAllrounder + '.jpg'))
+      .then((url) => {
+        // `url` is the download URL for 'images/stars.jpg'
+
+        // This can be downloaded directly:
+        const xhr = new XMLHttpRequest();
+        xhr.responseType = 'blob';
+        xhr.onload = (event) => {
+          const blob = xhr.response;
+        };
+        xhr.open('GET', url);
+        xhr.send();
+        // Or inserted into an <img> element
+        const img = document.getElementById('allroundtable_img');
+        img.setAttribute('src', url);
+      })
+      .catch((error) => {
+        // Handle any errors
+      });
+
+
+  </script>
+
+</body>
+
+</html>
