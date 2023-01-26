@@ -1,0 +1,521 @@
+{
+  "MatchInfo": {
+    "Winner": "Jaffna",
+    "Team1": "Colombo",
+    "Team2": "Jaffna"
+  },
+  "Batting": [
+    {
+      "Name": "Nishan Madushka",
+      "outNotOut": false,
+      "Runs": 1,
+      "Balls": 3,
+      "Fours": 0,
+      "Sixes": 0,
+      "StrikeRate": 33.33,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    },
+    {
+      "Name": "Dinesh Chandimal",
+      "outNotOut": false,
+      "Runs": 49,
+      "Balls": 40,
+      "Fours": 4,
+      "Sixes": 1,
+      "StrikeRate": 122.5,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    },
+    {
+      "Name": "Charith Asalanka",
+      "outNotOut": false,
+      "Runs": 31,
+      "Balls": 23,
+      "Fours": 3,
+      "Sixes": 1,
+      "StrikeRate": 134.78,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    },
+    {
+      "Name": "Ravi Bopara",
+      "outNotOut": true,
+      "Runs": 47,
+      "Balls": 33,
+      "Fours": 1,
+      "Sixes": 3,
+      "StrikeRate": 142.42,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    },
+    {
+      "Name": "Angelo Mathews",
+      "outNotOut": false,
+      "Runs": 12,
+      "Balls": 11,
+      "Fours": 0,
+      "Sixes": 1,
+      "StrikeRate": 109.09,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    },
+    {
+      "Name": "Mohammad Nabi",
+      "outNotOut": false,
+      "Runs": 15,
+      "Balls": 9,
+      "Fours": 0,
+      "Sixes": 1,
+      "StrikeRate": 166.67,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    },
+    {
+      "Name": "Benny Howell",
+      "outNotOut": true,
+      "Runs": 1,
+      "Balls": 1,
+      "Fours": 0,
+      "Sixes": 0,
+      "StrikeRate": 100.0,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    },
+    {
+      "Name": "Rahmanullah Gurbaz",
+      "outNotOut": false,
+      "Runs": 36,
+      "Balls": 18,
+      "Fours": 4,
+      "Sixes": 2,
+      "StrikeRate": 200.0,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Avishka Fernando",
+      "outNotOut": false,
+      "Runs": 50,
+      "Balls": 43,
+      "Fours": 4,
+      "Sixes": 1,
+      "StrikeRate": 116.28,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Afif Hossain",
+      "outNotOut": false,
+      "Runs": 3,
+      "Balls": 10,
+      "Fours": 0,
+      "Sixes": 0,
+      "StrikeRate": 30.0,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Sadeera Samarawickrama",
+      "outNotOut": false,
+      "Runs": 44,
+      "Balls": 27,
+      "Fours": 6,
+      "Sixes": 1,
+      "StrikeRate": 162.96,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Shoaib Malik",
+      "outNotOut": false,
+      "Runs": 10,
+      "Balls": 6,
+      "Fours": 0,
+      "Sixes": 1,
+      "StrikeRate": 166.67,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Dunith Wellalage",
+      "outNotOut": false,
+      "Runs": 2,
+      "Balls": 4,
+      "Fours": 0,
+      "Sixes": 0,
+      "StrikeRate": 50.0,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Thisara Perera",
+      "outNotOut": false,
+      "Runs": 6,
+      "Balls": 6,
+      "Fours": 1,
+      "Sixes": 0,
+      "StrikeRate": 100.0,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Maheesh Theekshana",
+      "outNotOut": false,
+      "Runs": 1,
+      "Balls": 1,
+      "Fours": 0,
+      "Sixes": 0,
+      "StrikeRate": 100.0,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Binura Fernando",
+      "outNotOut": true,
+      "Runs": 4,
+      "Balls": 1,
+      "Fours": 1,
+      "Sixes": 0,
+      "StrikeRate": 400.0,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Vijayakanth Viyaskanth",
+      "outNotOut": true,
+      "Runs": 0,
+      "Balls": 0,
+      "Fours": 0,
+      "Sixes": 0,
+      "StrikeRate": 0.0,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    }
+  ],
+  "Bowling": [
+    {
+      "Name": "Thisara Perera",
+      "Overs": 2.0,
+      "Maiden": 0,
+      "Runs": 16,
+      "Wickets": 1,
+      "NoBalls": 0,
+      "Wides": 0,
+      "EconomyRate": 8.0,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Binura Fernando",
+      "Overs": 4.0,
+      "Maiden": 0,
+      "Runs": 48,
+      "Wickets": 1,
+      "NoBalls": 0,
+      "Wides": 5,
+      "EconomyRate": 12.0,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Maheesh Theekshana",
+      "Overs": 4.0,
+      "Maiden": 0,
+      "Runs": 34,
+      "Wickets": 1,
+      "NoBalls": 0,
+      "Wides": 0,
+      "EconomyRate": 8.5,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Zaman Khan",
+      "Overs": 2.0,
+      "Maiden": 0,
+      "Runs": 21,
+      "Wickets": 0,
+      "NoBalls": 0,
+      "Wides": 0,
+      "EconomyRate": 10.5,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Vijayakanth Viyaskanth",
+      "Overs": 4.0,
+      "Maiden": 0,
+      "Runs": 24,
+      "Wickets": 0,
+      "NoBalls": 0,
+      "Wides": 0,
+      "EconomyRate": 6.0,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Dunith Wellalage",
+      "Overs": 4.0,
+      "Maiden": 0,
+      "Runs": 18,
+      "Wickets": 1,
+      "NoBalls": 0,
+      "Wides": 0,
+      "EconomyRate": 4.5,
+      "WinLoss": true,
+      "Team": "Jaffna",
+      "MatchInfo": {
+        "Wickets": 5,
+        "Total": 164,
+        "Overs": 19.2
+      }
+    },
+    {
+      "Name": "Kasun Rajitha",
+      "Overs": 3.2,
+      "Maiden": 0,
+      "Runs": 27,
+      "Wickets": 1,
+      "NoBalls": 0,
+      "Wides": 2,
+      "EconomyRate": 8.1,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    },
+    {
+      "Name": "Mohammad Nabi",
+      "Overs": 4.0,
+      "Maiden": 0,
+      "Runs": 42,
+      "Wickets": 1,
+      "NoBalls": 0,
+      "Wides": 1,
+      "EconomyRate": 10.5,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    },
+    {
+      "Name": "Seekkuge Prasanna",
+      "Overs": 0.4,
+      "Maiden": 0,
+      "Runs": 11,
+      "Wickets": 0,
+      "NoBalls": 0,
+      "Wides": 0,
+      "EconomyRate": 16.5,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    },
+    {
+      "Name": "Ravi Bopara",
+      "Overs": 1.2,
+      "Maiden": 0,
+      "Runs": 14,
+      "Wickets": 0,
+      "NoBalls": 0,
+      "Wides": 2,
+      "EconomyRate": 10.5,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    },
+    {
+      "Name": "Benny Howell",
+      "Overs": 3.0,
+      "Maiden": 0,
+      "Runs": 17,
+      "Wickets": 2,
+      "NoBalls": 0,
+      "Wides": 1,
+      "EconomyRate": 5.7,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    },
+    {
+      "Name": "Charith Asalanka",
+      "Overs": 2.0,
+      "Maiden": 0,
+      "Runs": 15,
+      "Wickets": 0,
+      "NoBalls": 0,
+      "Wides": 0,
+      "EconomyRate": 7.5,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    },
+    {
+      "Name": "Dominic Drakes",
+      "Overs": 2.0,
+      "Maiden": 0,
+      "Runs": 14,
+      "Wickets": 0,
+      "NoBalls": 0,
+      "Wides": 1,
+      "EconomyRate": 7.0,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    },
+    {
+      "Name": "Suranga Lakmal",
+      "Overs": 3.0,
+      "Maiden": 0,
+      "Runs": 23,
+      "Wickets": 3,
+      "NoBalls": 0,
+      "Wides": 0,
+      "EconomyRate": 7.7,
+      "WinLoss": false,
+      "Team": "Colombo",
+      "MatchInfo": {
+        "Total": 163,
+        "Overs": 20.0,
+        "Wickets": 8
+      }
+    }
+  ]
+}
